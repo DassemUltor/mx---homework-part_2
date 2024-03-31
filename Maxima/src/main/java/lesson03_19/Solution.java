@@ -34,8 +34,8 @@ class MyThread extends Thread {
             for (int i = 0; i < 100; i++) {
                 System.out.println("It is sout from Thread: " + sb);
             }
+            sb.setCharAt(0, (char) (sb.charAt(0) + 1));
         }
-        sb.setCharAt(0, (char) (sb.charAt(0) + 1));
     }
 }
  
