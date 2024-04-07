@@ -1,6 +1,7 @@
 package lesson03_22.lesson03_19Extend;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.log4j.BasicConfigurator;
 
 public class Solution {
 
