@@ -35,8 +35,9 @@ class MyThread extends Thread {
     public void run() {
         synchronized (sb) {
             for (int i = 0; i < 100; i++) {
-//                System.out.println("It is sout from Thread: " + sb);
+
                 log.info("It is sout from Thread: " + sb);
+
             }
             sb.setCharAt(0, (char) (sb.charAt(0) + 1));
         }
